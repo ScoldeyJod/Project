@@ -92,11 +92,14 @@
             border-radius: 3px;
       }
 
-       nav a:hover
+       nav ul li a:hover
       {
          background:  white;
          transition: 0.5s;
          color: black;
+      }
+      nav label a{
+            color: white;
       }
       .search-bar
       {
