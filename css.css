@@ -93,8 +93,9 @@
 
        nav a:hover
       {
-         background:  #292e3d;
+         background:  white;
          transition: 0.5s;
+         color: black;
       }
 
       .d1{
@@ -197,6 +198,7 @@
             font-weight: bolder;
             background-color: white;
             border: 1px solid white;
+            border-radius: 5px;
       }
       #buy_btn:hover
       {
@@ -229,7 +231,13 @@
                   height: 30px;
                   width: 30px;
                   background-color: white;
-                  border-spacing: 10px;
+                  border-spacing: 15px;
+            }
+            .f-img:hover{
+                  filter: invert(100%);
+                  border-radius: 5px;
+                  transform: scale(1.2);
+                  transition: 0.5s;
             }
             .container-col
             {     
@@ -241,6 +249,7 @@
                   font-size: 30px;
                   font-family: serif;
                  color: white;
+                 margin-bottom: 5px;
 
                   
             }
@@ -263,6 +272,10 @@
             }
              .container-col ul li a{
                    color: white;
+             }
+             .container-col ul li:hover,.container-col ul li a:hover{
+                  transform: scale(1.1);
+                  transition: 0.5s;
              }
             hr{
                   margin-bottom: 5px;
