@@ -1,0 +1,257 @@
+     #fset{
+      		height: 500px;
+      		width: 500px;
+      		margin-left: 395px;
+      		margin-top: 100px;
+      		border-radius: 20px;
+      		background-color: white;
+      		border: 2px solid black;
+      		box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.6);
+
+      }
+      #uid, #pass{
+      	border: 0px;
+      	border-bottom: 2px solid black;
+      	background-color: white;
+      	margin-top: 65px;
+      	margin-left: 90px;
+
+      }
+      input{
+      	font-size: 25px;
+      }
+
+      #login_btn{
+      	border-radius: 30px;
+      	border: 2px 2px 2px solid black;
+      	height: 60px;
+      	width: 100px;
+      	margin-left: 190px;
+      	margin-top: 62px;
+      	background-color: white;
+      	font-family: cursive;
+      	font-weight: bolder;
+      	box-shadow: 3px 3px gray;
+
+      }
+
+      #err_msg {
+            color: red;
+            text-align: center;
+      }
+      h1{
+            margin-left: 170px;
+            font-family: ui-rounded;
+            font-weight: bolder;
+            margin-top: 50px;
+      }
+      *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+      }
+      body{
+            font-family: montserrat;
+      }
+      nav
+      {
+            background-color: black;
+            height: 80px;
+            width: 100%;
+      }
+      label.logo{
+            color: white;
+            font-size: 35px;
+            line-height: 80px;
+            padding: 0 100px;
+            font-weight: bold;
+      }
+
+      nav ul
+      {
+            float: right;
+            margin-right: 20px;
+      }
+
+      nav ul li
+      {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+      }
+
+      nav ul li a
+      {
+            color: white;
+            font-size: 17px;
+            text-transform: uppercase;
+            padding: 7px 13px;
+            border-radius: 3px;
+      }
+
+       a:hover
+      {
+         background:  #292e3d;
+         transition: 0.5s;
+      }
+
+      .d1{
+            width: 220px;
+            height: 220px;
+            float: left;
+            border-radius: 5px;
+            margin-left: 90px;
+            margin-top: 20px;
+      }
+      .img-div
+      {
+            height: 100px;
+            width: 100px;
+            margin-left: 60px;
+            margin-top: 10px;
+
+      }
+      .featr-img{
+            height: 80px;
+            width: 80px;
+            margin-top: 10px;
+            margin-left: 7px;
+      }
+      #s2,#s4
+      {
+      
+            margin-left: 45px;
+            font-size: 20px;
+            margin-top: 5px;
+            font-weight: bolder;
+            text-transform: uppercase;
+      }
+      #s1,#s3
+      {
+            margin-left: 35px;
+            font-size: 20px;
+            margin-top: 5px;
+            font-weight: bolder;
+            text-transform: uppercase;
+      }
+      
+      .sp1{
+            margin-left: 25px;
+            margin-right: 10px;
+            margin-top: 20px;
+            color: gray;
+            }
+
+      .winter-feat-img-div
+      {
+            height: 600px;
+            float: left;
+            width: 400px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+      }
+      #winter-feat-text
+      {
+            height: 600px;
+            width: 549px;
+            float: left;
+            background-color: black;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            
+
+      }
+      .winter-feat-img
+      {
+           height: 600px;
+            width: 400px;
+      }
+
+      .winter-feat-text-sp
+      {
+            color: white;
+      }
+      h2{
+            margin-top: 80px;
+            margin-left: 160px;
+            font-weight: bold;
+            font-family: Garamond;
+            font-size: 30px;
+      }
+      h1{
+            font-weight: bolder;
+            font-family: Garamond;
+            font-size: 50px;
+            margin-left: 125px;
+      }
+      #buy_btn
+      {
+            font-size: 17px;
+            height: 40px;
+            width: 120px;
+            margin-left: 215px;
+            margin-top: 100px;
+            font-family: cursive;
+            font-weight: bolder;
+            background-color: white;
+            border: 1px solid white;
+      }
+      #buy_btn:hover
+      {
+          transform: scale(1.1);
+      }
+
+      #gallary-item
+      {
+            height: 600px;
+            width: 400px;
+            float: left;
+            margin-left: 45px;
+
+      }
+
+      .gal-img
+      {
+            height: 400px;
+            width: 300px;
+            border-radius: 5px;
+      }
+      #head
+       {
+            font-size: 30px;
+            margin-left: 90px;
+            margin-bottom: 20px;
+       }
+       .footer{
+      background-color: #24262b;
+}
+            .f-img{
+                  height: 20px;
+                  width: 20px;
+                  padding: 4px;
+            }
+            .container-col
+            {
+                  float: left;
+                  margin-left: 250px;
+            }
+            .container-col h4{
+                  margin-top: 10px;
+                  font-size: 30px;
+                  font-family: serif;
+                  
+            }
+            .container-col h6{
+                  font-size: 15px;
+                  font-family: monospace;
+                  color: gray;
+            }
+            .container-col ul li
+            {
+                  list-style: none;
+                  margin-left: -15px;
+                  margin-top: 5px;
+
+            }
