@@ -55,6 +55,8 @@
       body{
             font-family: montserrat;
       }
+
+/*      navifation bar*/
       nav
       {
             background-color: black;
@@ -66,7 +68,7 @@
             color: white;
             font-size: 35px;
             line-height: 80px;
-            padding: 0 100px;
+            padding: 0 80px;
             font-weight: bold;
       }
 
@@ -143,6 +145,74 @@
             background:hsl(0, 0%, 60%);
             cursor: pointer;
       }
+      @media(max-width: 992px){
+            nav {
+                  height: 160px;
+
+            }
+            .search-bar{
+                  margin-top: 50px;
+                  width: auto;
+            }
+
+      }
+      @media(max-width: 768px){
+            nav {
+
+                  height: 240px;
+
+            }
+            .search-bar{
+                  margin-top: 80px;
+                  width: auto;
+
+            }
+            label.logo{
+                  margin-top: 50px;
+                  padding: none;
+                  margin-left: -20px;
+            }
+            nav ul{
+                  float: none;
+            }
+            nav ul li a{
+                  padding: 20px;
+            }
+
+      }
+      @media(max-width: 425px){
+            nav {
+
+                  height: 450px;
+                  width: 100%;
+
+            }
+            .search-bar{
+                  top: 15%;
+                  width: auto;
+                  position: absolute;
+                  margin-left: 50px;
+
+            }
+            label.logo{
+                  margin-top: 70px;
+                  padding: none;
+                  left: 30    %;
+            }
+            nav ul{
+                  position: absolute ;
+                  margin-top: 70%;
+                  left: 10%;
+
+            }
+            nav ul li a{
+                  padding: 20px;
+            }
+
+      }
+
+
+/*      featurs of website*/
 
       .d1{
             width: 220px;
@@ -190,6 +260,8 @@
             margin-top: 20px;
             color: gray;
             }
+
+/*            feature*/
 
       .winter-feat-img-div
       {
@@ -250,7 +322,7 @@
       {
           transform: scale(1.1);
       }
-
+/*     gallary*/
       #gallary-item
       {
             height: 600px;
@@ -272,6 +344,8 @@
             margin-left: 90px;
             margin-bottom: 20px;
        }
+
+            /*       footer*/
             .f-img{
                   margin-top: 15px;
                   height: 30px;
@@ -337,3 +411,20 @@
             footer{
                   background-color:black;
             }
+      .images-main-div{
+            margin-top: 50px;
+            height: 400px;
+            width: 300px;
+/*            border: 1px solid black;*/
+            float: left;
+            margin-left: 35px;
+
+      }
+      .images-main-div img{
+            height: 375px;
+            width: 100%;
+      }
+
+      .images-main-div p{
+            margin-top: 20px;
+      }
