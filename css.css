@@ -5,6 +5,8 @@
             list-style: none;
             box-sizing: border-box;
             overflow-x: hidden;
+
+
       }
 
 
@@ -15,6 +17,7 @@
             height: 80px;
             width: 100%;
             display: inline-flex;
+
       }
       label.logo{
             color: white;
@@ -28,6 +31,7 @@
       {
             float: right;
             margin-right: 20px;
+            overflow-y: hidden;
       }
 
       nav ul li
@@ -35,6 +39,7 @@
             display: inline-block;
             line-height: 80px;
             margin: 0 5px;
+
       }
 
       nav ul li a
@@ -44,6 +49,7 @@
             text-transform: uppercase;
             padding: 7px 13px;
             border-radius: 3px;
+
       }
 
        nav ul li a:hover
@@ -68,6 +74,7 @@
          border-radius: 30px;
          padding: 5px 10px;
          backdrop-filter: blur(4px) saturate(180%);
+         overflow-y: hidden;
       }
       .search-bar input{
             background: transparent;
@@ -233,6 +240,7 @@
             width: 400px;
             margin-top: 50px;
             margin-bottom: 50px;
+            overflow-y: hidden;
       }
       #winter-feat-text
       {
@@ -249,6 +257,7 @@
       {
            height: 600px;
             width: 400px;
+
       }
 
       .winter-feat-text-sp
