@@ -144,7 +144,7 @@
 
             }
             .search-bar{
-                  top: 18%;
+                  top: 20%;
                   width: auto;
                   position: absolute;
                   margin-left: 55px;
@@ -152,7 +152,7 @@
             }
             label.logo{
                   margin-left: 25px;
-                  margin-top: 70px;
+                  margin-top: 30px;
                   padding: none;
                   left: 35%;
             }
