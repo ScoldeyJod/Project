@@ -144,6 +144,7 @@
 
             }
             .search-bar{
+                  left: 15%;
                   top: 18%;
                   width: auto;
                   position: absolute;
@@ -151,14 +152,15 @@
 
             }
             label.logo{
+                  margin-left: 25px;
                   margin-top: 70px;
                   padding: none;
-                  left: 30    %;
+                  left: 35%;
             }
             nav ul{
                   position: absolute ;
                   margin-top: 70%;
-                  left: 10%;
+                  left: 15%;
 
             }
             nav ul li a{
