@@ -7,7 +7,9 @@
 /*            overflow-x: hidden;*/
 
 
+
       }
+      
       html{
             height: 100%;
             
@@ -18,8 +20,9 @@
 body{
      
      
-     min-height: calc(100vh - 80px - 256px);
-
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
 
 
 }
@@ -207,6 +210,10 @@ body{
 
 /*      featurs of website*/
 
+      .feat-main-div{
+
+      }
+
       .d1{
             width: 220px;
             height: 220px;
@@ -351,7 +358,8 @@ body{
             /*       footer*/
      footer{
       background-color: black;
-            margin-top: 120%;    
+            margin-top: auto;    
+            margin-top: 50px;
       }
 
      .footerContainer{
@@ -431,4 +439,27 @@ body{
       font-weight: 400;
       margin: 0px 5px;
 
+   }
+
+/*SHopping section mens womens kids*/
+
+
+   .shop-img-div{
+      height: auto;
+      width: auto;
+      float: left;
+      margin-left:120px;
+      margin-top: 50px;
+      overflow: hidden;
+
+
+
+   }
+   .shopp-img{
+      height: 450px;
+      width: 300px;
+   }
+   .shopp-img:hover{
+      transform: scale(1.2);
+      transition: 0.5s;
    }
