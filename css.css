@@ -461,7 +461,6 @@ body{
       height: auto;
       width: auto;
       overflow: hidden;
-      border-radius: 10px;
    }
    .shop-product-price{
       font-size: 15px;
@@ -475,5 +474,6 @@ body{
    .shopp-img:hover{
       transform: scale(1.05);
       transition: 0.5s;
+
    }
    
