@@ -448,18 +448,32 @@ body{
       height: auto;
       width: auto;
       float: left;
-      margin-left:120px;
-      margin-top: 50px;
+      padding: 35px;
+       
+   }
+   .shop-img-text{
+      margin-left: 60px;
+      padding: 7px;
+      font-size: 20px;
+
+   }
+      .img-div{
+      height: auto;
+      width: auto;
       overflow: hidden;
-
-
-
+      border-radius: 10px;
+   }
+   .shop-product-price{
+      font-size: 15px;
+      margin-left: 65px;
    }
    .shopp-img{
       height: 450px;
       width: 300px;
+
    }
    .shopp-img:hover{
-      transform: scale(1.2);
+      transform: scale(1.05);
       transition: 0.5s;
    }
+   
